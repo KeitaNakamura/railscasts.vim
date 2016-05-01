@@ -1,0 +1,1 @@
+# railscasts-earthtone.vim
