@@ -1,6 +1,6 @@
-# Railscasts EarthTone Colorscheme for Vim
+# Railscasts Colorscheme for Vim
 
-Earth tone colorscheme for Vim inspired by [jpo/vim-railscasts-theme](https://github.com/jpo/vim-railscasts-theme). Compatible color palettes for Terminal.app and iTerm2.app are also available.
+A colorscheme for Vim inspired by [jpo/vim-railscasts-theme](https://github.com/jpo/vim-railscasts-theme). Compatible color palettes for Terminal.app and iTerm2.app are also available.
 
 ## Instllation
 
@@ -11,4 +11,4 @@ Plugin 'KeitaNakamura/railscasts-earthtone.vim'
 colorscheme railscasts-earthtone
 ```
 
-<img src="https://github.com/KeitaNakamura/railscasts-earthtone.vim/blob/master/Screenshot.png" width="640">
+<img src="https://github.com/KeitaNakamura/railscasts.vim/blob/master/Screenshot.png" width="640">
