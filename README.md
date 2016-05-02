@@ -7,8 +7,8 @@ A colorscheme for Vim inspired by [jpo/vim-railscasts-theme](https://github.com/
 ### Vundle
 
 ```vim:~/.vimrc
-Plugin 'KeitaNakamura/railscasts-earthtone.vim'
-colorscheme railscasts-earthtone
+Plugin 'KeitaNakamura/railscasts.vim'
+colorscheme railscasts
 ```
 
 <img src="https://github.com/KeitaNakamura/railscasts.vim/blob/master/Screenshot.png" width="640">
