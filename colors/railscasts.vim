@@ -3,13 +3,13 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "railscasts-earthtone"
-if !exists("g:railscasts_earthtone_csapprox")
-    let g:railscasts_earthtone_csapprox=0
+let g:colors_name = "railscasts"
+if !exists("g:railscasts_csapprox")
+    let g:railscasts_csapprox=0
 end
 
 " GUI & hexadecimal palettes"{{{
-if (has("gui_running") || g:railscasts_earthtone_csapprox == 1)
+if (has("gui_running") || g:railscasts_csapprox == 1)
     let s:vmode       = "gui"
     let s:base4       = "#2b2b2b"
     let s:base3       = "#353535"
