@@ -107,7 +107,7 @@ exe "hi! Type"                   .s:fg_light_blue
 hi! link StorageClass Identifier
 
 exe "hi! Special"                .s:fg_light_blue
-exe "hi! SpecialChar"            .s:fg_orange
+exe "hi! SpecialChar"            .s:fg_green
 exe "hi! Tag"                    .s:fg_orange
 exe "hi! Delimiter"              .s:fg_base1
 exe "hi! SpecialComment"         .s:fg_base1
