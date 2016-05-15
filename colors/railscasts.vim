@@ -92,7 +92,7 @@ exe "hi! Constant"               .s:fg_yellow
 exe "hi! String"                 .s:fg_lime
 exe "hi! Character"              .s:fg_green
 
-exe "hi! Identifier"             .s:fg_lilac
+exe "hi! Identifier"             .s:fg_lilac "gui=NONE, cterm=NONE"
 exe "hi! Function"               .s:fg_light_red
 
 exe "hi! Statement"              .s:fg_orange
