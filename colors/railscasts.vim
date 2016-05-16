@@ -95,7 +95,7 @@ exe "hi! Character"              .s:fg_green
 exe "hi! Identifier"             .s:fg_lilac "gui=NONE, cterm=NONE"
 exe "hi! Function"               .s:fg_light_red
 
-exe "hi! Statement"              .s:fg_orange
+exe "hi! Statement"              .s:fg_orange "gui=NONE, cterm=NONE"
 hi! link Label String
 hi! link Exception PreProc
 
@@ -103,7 +103,7 @@ exe "hi! PreProc"                .s:fg_light_red
 hi! link Define Type
 exe "hi! Macro"                  .s:fg_beige
 
-exe "hi! Type"                   .s:fg_light_blue
+exe "hi! Type"                   .s:fg_light_blue "gui=NONE, cterm=NONE"
 hi! link StorageClass Identifier
 
 exe "hi! Special"                .s:fg_light_blue
