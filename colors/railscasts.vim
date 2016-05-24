@@ -141,7 +141,7 @@ exe "hi! Title"                  .s:fg_yellow
 exe "hi! Directory"              .s:fg_lime
 exe "hi! SpecialKey"             .s:fg_base1
 
-exe "hi! SpellBad"               .s:fg_base0       .s:bg_base4
+exe "hi! SpellBad"               .s:fg_base0       .s:bg_base4      "gui=underline, cterm=underline"
 
 exe "hi! FoldColumn"             .s:fg_base0       .s:bg_base2
 exe "hi! SignColumn"             .s:fg_base0       .s:bg_base2
