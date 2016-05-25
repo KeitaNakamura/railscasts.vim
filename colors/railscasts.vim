@@ -121,7 +121,7 @@ exe "hi! CursorLine"                               .s:bg_base3  "gui=NONE, cterm
 hi! link CursorColumn CursorLine
 exe "hi! ColorColumn"                              .s:bg_base2
 exe "hi! LineNr"                 .s:fg_base1
-exe "hi! CursorLineNr"           .s:fg_base0
+exe "hi! CursorLineNr"           .s:fg_yellow                   "gui=bold, cterm=bold"
 hi! link NonText LineNr
 
 exe "hi! Folded"                 .s:fg_base1       .s:bg_base4
@@ -137,6 +137,8 @@ hi! link IncSearch Search
 
 exe "hi! VertSplit"              .s:fg_base4       .s:bg_base1
 exe "hi! MatchParen"             .s:fg_light_red   .s:bg_base4      "gui=underline, cterm=underline"
+" exe "hi! MatchParen"             .s:fg_base4       .s:bg_light_red
+" hi! link MatchParen Search
 exe "hi! Title"                  .s:fg_yellow
 exe "hi! Directory"              .s:fg_lime
 exe "hi! SpecialKey"             .s:fg_base1
