@@ -150,6 +150,8 @@ exe "hi! Question"               .s:fg_lime
 exe "hi! WarningMsg"             .s:fg_light_red
 exe "hi! ErrorMsg"               .s:fg_base4       .s:bg_light_red
 
+exe "hi! Conceal"                .s:fg_yellow      .s:bg_base4
+
 " Diff {{{
 exe "hi! DiffAdd"                .s:fg_green       .s:bg_base4      "gui=underline, cterm=underline"
 exe "hi! DiffDelete"             .s:fg_light_red   .s:bg_base4
@@ -186,6 +188,7 @@ exe "hi! NERDTreeHelpKey"        .s:fg_lilac
 hi! link TexMathDelim Macro
 exe "hi! TexMathOper"            .s:fg_light_blue
 exe "hi! TexCite"                .s:fg_lime
+hi! link texOnlyMath texMathOper
 " }}}
 " sh {{{
 hi! link shQuote String
