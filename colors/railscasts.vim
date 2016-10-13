@@ -196,3 +196,8 @@ hi! link shQuote String
 " markdown {{{
 hi! link markdownUrl String
 " }}}
+" indent-guides {{{
+let g:indent_guides_auto_colors = 0
+hi! link IndentGuidesOdd ColorColumn
+hi! link IndentGuidesEven ColorColumn
+" }}}
