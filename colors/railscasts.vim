@@ -201,3 +201,6 @@ let g:indent_guides_auto_colors = 0
 hi! link IndentGuidesOdd ColorColumn
 hi! link IndentGuidesEven ColorColumn
 " }}}
+" tex-conceal {{{
+exe "hi! texBoldMathText" .s:fg_light_blue
+" }}}
