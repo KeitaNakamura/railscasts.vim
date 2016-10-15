@@ -152,6 +152,9 @@ exe "hi! ErrorMsg"               .s:fg_base4       .s:bg_light_red
 
 exe "hi! Conceal"                .s:fg_yellow      .s:bg_base4
 
+exe "hi! StatusLine"             .s:fg_base0       .s:bg_base2  "gui=NONE, cterm=NONE"
+exe "hi! WildMenu"               .s:bg_lime                     "gui=bold, cterm=bold"
+
 " Diff {{{
 exe "hi! DiffAdd"                .s:fg_green       .s:bg_base4      "gui=underline, cterm=underline"
 exe "hi! DiffDelete"             .s:fg_light_red   .s:bg_base4
