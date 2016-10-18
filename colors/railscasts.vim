@@ -175,7 +175,8 @@ hi! link juliaTypeOperator Statement
 hi! link juliaRangeOperator Statement
 hi! link juliaVarargOperator Statement
 hi! link juliaRangeEnd Number
-hi! link juliaKeyword PreProc
+" hi! link juliaKeyword PreProc
+hi! link juliaKeyword Statement
 hi! link juliaParDelim Delimiter
 exe "hi! juliaStringVarsPla"     .s:fg_lime
 exe "hi! juliaStringVarDelim"    .s:fg_lime
